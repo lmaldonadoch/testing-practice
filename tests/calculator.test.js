@@ -18,6 +18,6 @@ it('divides the first element by following elements in order', () => {
 
 it('returns an error message when elements are not numbers', () => {
   expect(Calculator.sum(18, 'something', 2)).toBe(
-    'not all elements are integers'
+    'not all elements are integers',
   );
 });

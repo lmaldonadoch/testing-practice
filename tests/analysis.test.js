@@ -5,8 +5,8 @@ it('should give an object with the array properties', () => {
     average: 2.5,
     min: 1,
     max: 3,
-    length: 4
-  }
+    length: 4,
+  };
 
-  expect(Analysis(1,3,3,3)).toStrictEqual(object);
+  expect(Analysis(1, 3, 3, 3)).toStrictEqual(object);
 });

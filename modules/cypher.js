@@ -14,15 +14,14 @@ const Cypher = (() => {
   };
 
   const encrypt = (offset, string) => {
-    let array = string.split('');
-    let encryptedArray = array.map((elem) => {
+    const array = string.split('');
+    const encryptedArray = array.map((elem) => {
       if (elem.charCodeAt(0) >= 65 && elem.charCodeAt(0) <= 90) {
         return String.fromCharCode(encryptUpper(elem.charCodeAt(0), offset));
-      } else if (elem.charCodeAt(0) >= 97 && elem.charCodeAt(0) <= 122) {
+      } if (elem.charCodeAt(0) >= 97 && elem.charCodeAt(0) <= 122) {
         return String.fromCharCode(encryptLower(elem.charCodeAt(0), offset));
-      } else {
-        return elem;
       }
+      return elem;
     });
 
     return encryptedArray.join('');
