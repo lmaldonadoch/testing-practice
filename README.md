@@ -34,7 +34,7 @@ npm install --save-dev jest babel-jest @babel/preset-env
 
 ```
 
-Run `npm test` in your web browser
+Run `npm test` in your console/terminal.
 
 
 ## Screenshot
