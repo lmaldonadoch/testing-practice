@@ -6,10 +6,12 @@
   "directories": {
     "test": "tests"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.3",
+    "babel-jest": "^26.1.0",
     "jest": "^26.1.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "jest"
   },
