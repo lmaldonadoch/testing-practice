@@ -1,0 +1,31 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "'Testing for different methods'",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.3",
+    "babel-jest": "^26.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmaldonadoch/testing-practice.git"
+  },
+  "author": "'Isaac Gomez & Luis Angel Maldonado'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmaldonadoch/testing-practice/issues"
+  },
+  "homepage": "https://github.com/lmaldonadoch/testing-practice#readme"
+}
